@@ -88,11 +88,11 @@ int main(){
     printf("Número de Pontos Turísticos: %d \n", pontoTuristico2);
     printf("Densidade Populacional: %.2f \n", densidade2);
     printf("PIB por Capita: %.2f \n", pibcapita2);
-    printf("----------------------\n")
+    printf("----------------------\n");
 
     // Cáculo do Super Poder
-    superPoder1 = (float) populacao1 + area1 + pib1 + densidade1 + pibcapita1;
-    superPoder2 = (float) populacao2 + area2 + pib2 + densidade2 + pibcapita2; 
+    superPoder1 = (float) populacao1 + area1 + pib1 + pibcapita1 + (densidade1 / 1);
+    superPoder2 = (float) populacao2 + area2 + pib2 + pibcapita2 + (densidade2 / 1); 
     
     // Comparação das cartas
     printf("\n---COMPARAÇÃO DE CARTAS---\n");
