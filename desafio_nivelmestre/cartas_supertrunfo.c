@@ -103,7 +103,7 @@ int main(){
     printf("Densidade Populacional: %d\n", densidade1 < densidade2);
     printf("PIB per Capita: %d\n", pibcapita1 > pibcapita2);
     printf("Super Poder: %d\n", superPoder1 > superPoder2);
-    printf("1 = Carta 1 venceu, 0 = Carta 2 venceu.\n");
+    printf("1 = Carta 1 venceu. 0 = Carta 2 venceu.\n");
 
     return 0;
 }
